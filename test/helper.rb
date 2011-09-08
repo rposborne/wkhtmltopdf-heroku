@@ -12,7 +12,7 @@ require 'shoulda'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'wkhtmltopdf_heroku_and_osx_binaries'
+require 'wkhtmltopdf-heroku'
 
 class Test::Unit::TestCase
 end

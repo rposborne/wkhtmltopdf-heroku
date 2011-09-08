@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "wkhtmltopdf_heroku_and_osx_binaries"
-  gem.homepage = "http://github.com/bradphelan/wkhtmltopdf_heroku_and_osx_binaries"
+  gem.name = "wkhtmltopdf-heroku"
+  gem.homepage = "http://github.com/bradphelan/wkhtmltopdf-heroku"
   gem.license = "MIT"
   gem.summary = %Q{wkhtmltopdf binaries for OSX(darwin) and heroku}
   gem.description = %Q{wkhtmltopdf binaries for OSX(darwin) and heroku}
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "wkhtmltopdf_heroku_and_osx_binaries #{version}"
+  rdoc.title = "wkhtmltopdf-heroku #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end

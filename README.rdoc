@@ -1,4 +1,4 @@
-= wkhtmltopdf_heroku_and_osx_binaries
+= wkhtmltopdf-heroku
 
 Binaries for wkhtmltopdf for OSX and Heroku
 
