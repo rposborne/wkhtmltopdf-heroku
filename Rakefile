@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "wkhtmltopdf_heroku_and_osx_binaries"
   gem.homepage = "http://github.com/bradphelan/wkhtmltopdf_heroku_and_osx_binaries"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{wkhtmltopdf binaries for OSX(darwin) and heroku}
+  gem.description = %Q{wkhtmltopdf binaries for OSX(darwin) and heroku}
   gem.email = "bradphelan@xtargets.com"
   gem.authors = ["Brad Phelan"]
   # dependencies defined in Gemfile
