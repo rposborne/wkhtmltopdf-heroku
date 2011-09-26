@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{wkhtmltopdf-heroku}
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Brad Phelan}]
@@ -28,7 +28,8 @@ Gem::Specification.new do |s|
     "bin/wkhtmltopdf-linux-amd64",
     "lib/wkhtmltopdf-heroku.rb",
     "test/helper.rb",
-    "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb"
+    "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb",
+    "wkhtmltopdf-heroku.gemspec"
   ]
   s.homepage = %q{http://github.com/bradphelan/wkhtmltopdf-heroku}
   s.licenses = [%q{MIT}]
