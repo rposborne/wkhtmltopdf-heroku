@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
     "bin/wkhtmltopdf-darwin",
     "lib/wkhtmltopdf_heroku_and_osx_binaries.rb",
     "test/helper.rb",
-    "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb"
+    "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb",
+    "wkhtmltopdf-heroku.gemspec"
   ]
   s.homepage = %q{http://github.com/bradphelan/wkhtmltopdf-heroku}
   s.licenses = [%q{MIT}]
