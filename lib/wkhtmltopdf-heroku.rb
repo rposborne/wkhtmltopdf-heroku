@@ -1,6 +1,6 @@
 # config/initializers/pdfkit.rb
 PDFKit.configure do |config|
-  config.wkhtmltopdf = File.expand_path "../bin/wkhtmltopdf-linux-amd64", __FILE__
+  config.wkhtmltopdf = File.expand_path "../../bin/wkhtmltopdf-linux-amd64", __FILE__
   # config.default_options = {
   #   :page_size => 'Legal',
   #   :print_media_type => true
