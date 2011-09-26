@@ -1,4 +1,5 @@
 # config/initializers/pdfkit.rb
+require 'pdfkit'
 PDFKit.configure do |config|
   config.wkhtmltopdf = File.expand_path "../../bin/wkhtmltopdf-linux-amd64", __FILE__
   # config.default_options = {
