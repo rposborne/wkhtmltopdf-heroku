@@ -1,10 +1,19 @@
-# config/initializers/pdfkit.rb
-require 'pdfkit'
-PDFKit.configure do |config|
-  config.wkhtmltopdf = File.expand_path "../../bin/wkhtmltopdf-linux-amd64", __FILE__
-  # config.default_options = {
-  #   :page_size => 'Legal',
-  #   :print_media_type => true
-  # }
-  # config.root_url = "http://localhost" # Use only if your external hostname is unavailable on the server.
+WKHTMLTOPDF_PATH = File.expand_path "../../bin/wkhtmltopdf-linux-amd64", __FILE__
+
+begin
+  require 'pdfkit'
+
+  PDFKit.configure do |config|
+    config.wkhtmltopdf = WKHTMLTOPDF_PATH
+  end
+rescue LoadError
+  false
+end
+
+begin
+  require 'wicked_pdf'
+
+  WickedPdf.config[:exe_path] = WKHTMLTOPDF_PATH
+rescue LoadError
+  false
 end
