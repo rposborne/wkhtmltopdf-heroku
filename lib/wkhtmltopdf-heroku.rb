@@ -7,7 +7,6 @@ begin
     config.wkhtmltopdf = WKHTMLTOPDF_PATH
   end
 rescue LoadError
-  false
 end
 
 begin
@@ -15,5 +14,4 @@ begin
 
   WickedPdf.config[:exe_path] = WKHTMLTOPDF_PATH
 rescue LoadError
-  false
 end
