@@ -1,0 +1,10 @@
+# wkhtmltopdf-heroku
+
+Provides a [wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/) binary for [Heroku](http://www.heroku.com/).
+
+Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit) and [wicked_pdf](https://rubygems.org/gems/wicked_pdf) to use this binary if they are loaded.
+
+## Copyright
+
+Copyright (c) 2011 Brad Phelan. See LICENSE.txt for further details.
+
