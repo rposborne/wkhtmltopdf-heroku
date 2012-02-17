@@ -1,9 +1,0 @@
-= wkhtmltopdf-heroku
-
-Binaries for wkhtmltopdf for OSX and Heroku
-
-== Copyright
-
-Copyright (c) 2011 Brad Phelan. See LICENSE.txt for
-further details.
-
