@@ -4,15 +4,15 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{wkhtmltopdf-heroku}
-  s.version = "0.1.3"
+  s.name = "wkhtmltopdf-heroku"
+  s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Brad Phelan}]
-  s.date = %q{2012-01-03}
-  s.description = %q{wkhtmltopdf binaries heroku}
-  s.email = %q{bradphelan@xtargets.com}
-  s.executables = [%q{wkhtmltopdf-linux-amd64}]
+  s.authors = ["Brad Phelan"]
+  s.date = "2012-05-27"
+  s.description = "wkhtmltopdf binaries heroku"
+  s.email = "bradphelan@xtargets.com"
+  s.executables = ["wkhtmltopdf-linux-amd64"]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.mdown"
@@ -31,11 +31,11 @@ Gem::Specification.new do |s|
     "test/test_wkhtmltopdf_heroku_and_osx_binaries.rb",
     "wkhtmltopdf-heroku.gemspec"
   ]
-  s.homepage = %q{http://github.com/bradphelan/wkhtmltopdf-heroku}
-  s.licenses = [%q{MIT}]
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.6}
-  s.summary = %q{wkhtmltopdf binaries for heroku}
+  s.homepage = "http://github.com/bradphelan/wkhtmltopdf-heroku"
+  s.licenses = ["MIT"]
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.15"
+  s.summary = "wkhtmltopdf binaries for heroku"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
