@@ -4,6 +4,10 @@ Provides a [wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/) binary for [Hero
 
 Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf) and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
+## Current wkhtmltopdf Version
+
+0.11.0 rc1
+
 ## Copyright
 
 Copyright (c) 2011 Brad Phelan. See LICENSE.txt for further details.
