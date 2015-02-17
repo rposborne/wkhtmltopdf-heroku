@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
     "lib/wkhtmltopdf-heroku-edge.rb",
     "wkhtmltopdf-heroku-edge.gemspec"
   ]
-  s.homepage = "http://github.com/bradphelan/wkhtmltopdf-heroku"
+  s.homepage = "http://github.com/pallymore/wkhtmltopdf-heroku-edge"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
