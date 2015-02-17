@@ -20,11 +20,10 @@ Gem::Specification.new do |s|
   s.files = [
     "LICENSE.txt",
     "README.mdown",
-    "Rakefile",
     "VERSION",
     "bin/wkhtmltopdf-linux-amd64",
     "lib/wkhtmltopdf-heroku-edge.rb",
-    "wkhtmltopdf-heroku.gemspec"
+    "wkhtmltopdf-heroku-edge.gemspec"
   ]
   s.homepage = "http://github.com/bradphelan/wkhtmltopdf-heroku"
   s.licenses = ["MIT"]
