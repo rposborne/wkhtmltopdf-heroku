@@ -19,8 +19,8 @@ end
 begin
   require 'wisepdf'
 
-  Wisepdf::Configuration.configure do |config|       
+  Wisepdf::Configuration.configure do |config|
     config.wkhtmltopdf = WKHTMLTOPDF_PATH
-  end 
+  end
 rescue LoadError
 end

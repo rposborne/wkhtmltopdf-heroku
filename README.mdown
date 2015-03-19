@@ -4,6 +4,16 @@ Provides a [wkhtmltopdf](http://code.google.com/p/wkhtmltopdf/) binary for [Hero
 
 Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf) and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
+## Usage
+
+```ruby
+gem 'wkhtmltopdf-heroku'
+```
+
+## Platform: Heroku CEDAR-14 Stack (Ubuntu 14.04 LTS)
+
+See [migration guides](https://devcenter.heroku.com/articles/cedar-14-migration) for more details.
+
 ## Copyright
 
 Copyright (c) 2011 Brad Phelan. See LICENSE.txt for further details.
