@@ -20,6 +20,11 @@ For more details See wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkht
 
 See [migration guides](https://devcenter.heroku.com/articles/cedar-14-migration) for more details.
 
+## Contributors
+
+* @bradphelan
+* @pallymore
+
 ## Copyright
 
 Copyright (c) 2011 Brad Phelan. See LICENSE.txt for further details.
