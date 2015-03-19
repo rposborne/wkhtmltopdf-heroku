@@ -6,11 +6,17 @@ Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://r
 
 ## Usage
 
+In your `Gemfile`:
+
 ```ruby
-gem 'wkhtmltopdf-heroku'
+  gem 'wkhtmltopdf-heroku'
 ```
 
-## Platform: Heroku CEDAR-14 Stack (Ubuntu 14.04 LTS)
+## Current wkhtmltopdf Version: 0.12.2.1 Ubuntu Trusty 64-bit.
+
+For more details See wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
+
+## Supported Heroku Stack: [Cedar-14](https://devcenter.heroku.com/articles/cedar)
 
 See [migration guides](https://devcenter.heroku.com/articles/cedar-14-migration) for more details.
 
