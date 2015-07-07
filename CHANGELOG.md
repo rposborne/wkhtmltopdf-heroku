@@ -2,7 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.12.2.1] - 2012-03-19
+## [2.12.3.0-Aplha]
+### Changed
+- This is an APLHA release!
+- Bumping wkhtmltopdf to 0.12.3.0 ALPHA
+
+## [2.12.2.1] - 2015-03-19
 ### Changed
 - Bumping wkhtmltopdf to 0.12.2.1
 - Merged in pallymore/wkhtmltopdf-heroku-edge
