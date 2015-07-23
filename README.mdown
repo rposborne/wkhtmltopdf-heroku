@@ -12,7 +12,7 @@ In your `Gemfile`:
   gem 'wkhtmltopdf-heroku'
 ```
 
-### Current wkhtmltopdf Version: 0.12.2.1 Ubuntu Trusty 64-bit.
+### Current wkhtmltopdf Version: 0.12.2.4 Ubuntu Trusty 64-bit.
 
 For more details See wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
 
