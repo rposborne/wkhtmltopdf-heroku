@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
   s.name = "wkhtmltopdf-heroku"
-  s.version = "2.12.2.1"
+  s.version = "2.12.2.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.required_ruby_version = '>= 1.8.7'
 
   s.authors = ["Brad Phelan"]
-  s.date = "2015-03-19"
+  s.date = "2015-07-15"
   s.description = "wkhtmltopdf binaries heroku"
   s.email = "bradphelan@xtargets.com"
   s.executables = ["wkhtmltopdf-linux-amd64"]
