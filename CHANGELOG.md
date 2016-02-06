@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.12.3.0] - 2016-02-06
+### Changed
+- Bumping wkhtmltopdf to 0.12.3.0
+
 ## [2.12.2.4] - 2015-07-22
 ### Changed
 - Bumping wkhtmltopdf to 0.12.2.4
