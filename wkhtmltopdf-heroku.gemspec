@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.8.7'
 
   s.authors = ["Brad Phelan"]
-  s.date = "2015-07-15"
+  s.date = Time.now.strftime('%Y-%m-%d')
   s.description = "wkhtmltopdf binaries heroku"
   s.email = "bradphelan@xtargets.com"
   s.executables = ["wkhtmltopdf-linux-amd64"]
