@@ -1,6 +1,6 @@
 # wkhtmltopdf-heroku
 
-Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/).
+Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Cedar-14 stack.
 
 Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf) and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
@@ -40,9 +40,9 @@ re-configuring the binary path again in their initializer files.
 You will need to configure the path manually. You can get the path to
 the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku')`
 
-### Current wkhtmltopdf Version: 0.12.3.0 Ubuntu Trusty 64-bit.
+### Current wkhtmltopdf Version: 0.12.4.0 Ubuntu Trusty 64-bit.
 
-For more details See wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
+For more details see wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
 
 ### Supported Heroku Stack: [Cedar-14](https://devcenter.heroku.com/articles/cedar)
 

@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
   s.name = "wkhtmltopdf-heroku"
-  s.version = "2.12.3.0"
+  s.version = IO.read('VERSION').strip
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.required_ruby_version = '>= 1.8.7'
 
   s.authors = ["Brad Phelan"]
   s.date = Time.now.strftime('%Y-%m-%d')
-  s.description = "wkhtmltopdf binaries heroku"
+  s.description = "provides wkhtmltopdf binaries for heroku cedar-14 stack"
   s.email = "bradphelan@xtargets.com"
   s.executables = ["wkhtmltopdf-linux-amd64"]
   s.extra_rdoc_files = [
@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
-  s.summary = "wkhtmltopdf binaries for heroku"
+  s.summary = s.description
 end
 
