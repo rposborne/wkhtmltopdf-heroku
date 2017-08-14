@@ -44,9 +44,10 @@ the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku', 'wkhtmltopdf-l
 
 For more details see wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
 
-### Supported Heroku Stack: [Cedar-14](https://devcenter.heroku.com/articles/cedar)
+### Supported Heroku Stacks
 
-See [migration guides](https://devcenter.heroku.com/articles/cedar-14-migration) for more details.
+* [Cedar-14](https://devcenter.heroku.com/articles/cedar-14-stack)
+* [Cedar-16](https://devcenter.heroku.com/articles/heroku-16-stack)
 
 ### Contributors
 
