@@ -1,8 +1,8 @@
 # wkhtmltopdf-heroku
 
-Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Cedar-14 stack.
+Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Cedar-14/Cedar-16 stacks.
 
-Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf) and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
+Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf), and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
 ## Installation
 
@@ -40,22 +40,22 @@ re-configuring the binary path again in their initializer files.
 You will need to configure the path manually. You can get the path to
 the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku', 'wkhtmltopdf-linux-amd64')`
 
-### Current wkhtmltopdf binary Version
+## Current wkhtmltopdf binary Version
 
 [0.12.4.0 Linux Generic AMD64](https://github.com/wkhtmltopdf/wkhtmltopdf/tree/0.12.4)
 
 For more details see wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
 
-### Supported Heroku Stacks
+## Supported Heroku Stacks
 
 * [Cedar-14](https://devcenter.heroku.com/articles/cedar-14-stack)
 * [Cedar-16](https://devcenter.heroku.com/articles/heroku-16-stack)
 
-### Contributors
+## Contributors
 
 * @bradphelan
 * @pallymore
 
-### Copyright
+## Copyright
 
 Copyright (c) 2011 Brad Phelan. See LICENSE.txt for further details.
