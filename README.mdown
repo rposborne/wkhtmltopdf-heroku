@@ -40,7 +40,9 @@ re-configuring the binary path again in their initializer files.
 You will need to configure the path manually. You can get the path to
 the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku', 'wkhtmltopdf-linux-amd64')`
 
-### Current wkhtmltopdf Version: 0.12.4.0 Ubuntu Trusty 64-bit.
+### Current wkhtmltopdf binary Version
+
+[0.12.4.0 Linux Generic AMD64](https://github.com/wkhtmltopdf/wkhtmltopdf/tree/0.12.4)
 
 For more details see wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkhtmltopdf/blob/master/CHANGELOG.md)
 
