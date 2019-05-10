@@ -11,7 +11,7 @@ In your `Gemfile`:
 For Heroku Stack 18 (Ubuntu 18.04)
 
 ```ruby
-  gem 'wkhtmltopdf-heroku', '2.12.5.0-18'
+  gem 'wkhtmltopdf-heroku', '2.12.5.0.18'
 ```
 
 For Heroku Stack 16 (Ubuntu 16.04)
