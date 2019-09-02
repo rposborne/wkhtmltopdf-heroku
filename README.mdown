@@ -56,6 +56,7 @@ For more details see wkhtmltopdf [Changelog](https://github.com/wkhtmltopdf/wkht
 
 ## Supported Heroku Stacks
 
+* [Heroku-18](https://devcenter.heroku.com/articles/heroku-18-stack)
 * [Cedar-16](https://devcenter.heroku.com/articles/heroku-16-stack)
 
 ## Contributors
