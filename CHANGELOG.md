@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.12.6.0] - 2020-08-28
+### Changed
+- [BREAKING] Dropping support for Heroku-16, only Heroku-18 is supported
+    right now.
+- Bumping wkhtmltopdf to 0.12.6.0 - this version contains breaking
+    changes, please see [CHANGELOG](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/0.12.6/)
+
 ## [2.12.5.0-alpha] - 2018-06-24
 ### Changed
 - Bumping wkhtmltopdf to 0.12.5.0
