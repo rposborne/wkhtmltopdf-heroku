@@ -7,7 +7,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
-- [BREAKING] Only Heroku-22 is supported in this version.
+- [BREAKING] Only Heroku-22 is supported in this version. (Credits to
+  @igallart for building the binary).
 
 ## [2.12.6.0] - 2020-08-28
 

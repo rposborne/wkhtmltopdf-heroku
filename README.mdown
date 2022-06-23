@@ -1,6 +1,6 @@
 # wkhtmltopdf-heroku
 
-Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Ubuntu 18.04/20.04 LTS environment.
+Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Ubuntu 22 LTS environment.
 
 Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf), and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
@@ -8,11 +8,13 @@ Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://r
 
 In your `Gemfile`:
 
-For Heroku Stack 18/20 (Ubuntu 18.04/20.04 LTS)
+For Heroku Stack 22
 
 ```ruby
-  gem 'wkhtmltopdf-heroku', '2.12.6.0'
+gem 'wkhtmltopdf-heroku',  git: 'https://github.com/rposborne/wkhtmltopdf-heroku.git', branch: '2.12.6.0-jammy'
 ```
+
+Thank you @igallart for [building the binary](https://github.com/wkhtmltopdf/packaging/issues/114).
 
 ## Usage
 
@@ -42,7 +44,7 @@ re-configuring the binary path again in their initializer files.
 You will need to configure the path manually. You can get the path to
 the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku', 'wkhtmltopdf-linux-amd64')`
 
-## Current wkhtmltopdf binary Version
+## Current wkhtmltopdf version
 
 [0.12.6.0 Ubuntu Bionic AMD64](https://github.com/wkhtmltopdf/wkhtmltopdf/tree/0.12.6)
 
@@ -50,13 +52,12 @@ For more details see [CHANGELOG](https://github.com/wkhtmltopdf/wkhtmltopdf/rele
 
 ## Supported Heroku Stacks
 
-* [Heroku-18](https://devcenter.heroku.com/articles/heroku-18-stack)
-* [Heroku-20](https://devcenter.heroku.com/articles/heroku-20-stack)
+- [Heroku-22](https://devcenter.heroku.com/articles/heroku-22-stack)
 
 ## Contributors
 
-* @bradphelan
-* @pallymore
+- @bradphelan
+- @pallymore
 
 ## Copyright
 
