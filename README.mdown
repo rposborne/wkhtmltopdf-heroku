@@ -2,6 +2,8 @@
 
 Provides a [wkhtmltopdf](http://wkhtmltopdf.org/) binary for [Heroku](http://www.heroku.com/) Ubuntu 18.04/20.04 LTS environment.
 
+Experimental support for Heroku Stack-22 (Ubuntu 22 with OpenSSL 3.0) is also available via version `2.12.6.0.pre.jammy`.
+
 Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://rubygems.org/gems/wicked_pdf), and [wisepdf](http://rubygems.org/gems/wisepdf) to use this binary if they are loaded.
 
 ## Installation
@@ -12,6 +14,12 @@ For Heroku Stack 18/20 (Ubuntu 18.04/20.04 LTS)
 
 ```ruby
   gem 'wkhtmltopdf-heroku', '2.12.6.0'
+```
+
+Experimental support for Heroku Stack-22 (Ubuntu 22 LTS (Jammy)):
+
+```ruby
+  gem 'wkhtmltopdf-heroku', '2.12.6.0.pre.jammy'
 ```
 
 ## Usage
@@ -50,13 +58,14 @@ For more details see [CHANGELOG](https://github.com/wkhtmltopdf/wkhtmltopdf/rele
 
 ## Supported Heroku Stacks
 
-* [Heroku-18](https://devcenter.heroku.com/articles/heroku-18-stack)
-* [Heroku-20](https://devcenter.heroku.com/articles/heroku-20-stack)
+- [Heroku-18](https://devcenter.heroku.com/articles/heroku-18-stack)
+- [Heroku-20](https://devcenter.heroku.com/articles/heroku-20-stack)
+- [Experimental: Heroku-22](https://devcenter.heroku.com/articles/heroku-22-stack)
 
 ## Contributors
 
-* @bradphelan
-* @pallymore
+- @bradphelan
+- @pallymore
 
 ## Copyright
 
