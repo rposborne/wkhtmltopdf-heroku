@@ -11,7 +11,7 @@ In your `Gemfile`:
 For Heroku Stack 22:
 
 ```ruby
-gem 'wkhtmltopdf-heroku', '2.12.6.0-jammy'
+gem 'wkhtmltopdf-heroku', '2.12.6.0.pre.jammy'
 ```
 
 Thank you @igallart for [building the binary](https://github.com/wkhtmltopdf/packaging/issues/114).
