@@ -1,9 +1,14 @@
 # Change Log
 
 All notable changes to this project will be documented in this file.
-This project adheres to [Semantic Versioning](http://semver.org/).
 
-## [2.12.6.0-jammy] - 2022-06-22
+## [2.12.6.1.pre.jammy] - 2022-06-22
+
+### Changed
+
+- Bumps binary to [0.12.6.1 r2](https://github.com/wkhtmltopdf/packaging/releases/tag/0.12.6.1-2)
+
+## [2.12.6.0.pre.jammy] - 2022-06-22
 
 ### Changed
 

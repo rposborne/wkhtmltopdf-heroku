@@ -11,10 +11,8 @@ In your `Gemfile`:
 For Heroku Stack 22:
 
 ```ruby
-gem 'wkhtmltopdf-heroku', '2.12.6.0.pre.jammy'
+gem 'wkhtmltopdf-heroku', '2.12.6.1.pre.jammy'
 ```
-
-Thank you @igallart for [building the binary](https://github.com/wkhtmltopdf/packaging/issues/114).
 
 ## Usage
 
@@ -46,7 +44,7 @@ the executable by using this: `Gem.bin_path('wkhtmltopdf-heroku', 'wkhtmltopdf-l
 
 ## Current wkhtmltopdf version
 
-[0.12.6.0 Ubuntu Bionic AMD64](https://github.com/wkhtmltopdf/wkhtmltopdf/tree/0.12.6)
+[0.12.6.1 r2 Ubuntu Jammy AMD64](https://github.com/wkhtmltopdf/packaging/releases/tag/0.12.6.1-2)
 
 For more details see [CHANGELOG](https://github.com/wkhtmltopdf/wkhtmltopdf/releases/0.12.6/)
 
