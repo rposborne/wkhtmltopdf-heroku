@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0.pre.rc0] - 2023-02-07
+
+This version is the same as `2.12.6.1.pre.jammy` but with a major
+version bump. Previously we've been trying to include `wkhtmltopdf`
+versions in the tags, however that has proven to be difficult as
+sometimes we have to make small adjustments in the gem and release a
+minor-patch version. Starting from `3.0.0` we will switch to semantic
+versioning: `Major.Minor.Patch`. `Major` version would denote breaking changes (platform
+compatibility, etc), `Minor`version will be new features and
+`wkhtmltopdf` gem upgrades, and `Patch` version will include bug fixes
+and small changes limited to this gem only.
+
 ## [2.12.6.1.pre.jammy] - 2022-06-22
 
 ### Changed

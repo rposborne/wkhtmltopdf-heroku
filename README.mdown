@@ -8,10 +8,10 @@ Preconfigures [pdfkit](https://rubygems.org/gems/pdfkit), [wicked_pdf](https://r
 
 In your `Gemfile`:
 
-For Heroku Stack 22:
+For [Heroku Stack 22](https://devcenter.heroku.com/articles/heroku-22-stack)
 
 ```ruby
-gem 'wkhtmltopdf-heroku', '2.12.6.1.pre.jammy'
+gem 'wkhtmltopdf-heroku', '3.0.0.pre.rc0'
 ```
 
 ## Usage

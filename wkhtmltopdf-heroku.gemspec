@@ -26,6 +26,6 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.15"
-  s.summary = "provides wkhtmltopdf binaries for Heroku-18 stack"
+  s.summary = "provides wkhtmltopdf binaries for Heroku-22 stack"
 end
 
