@@ -15,10 +15,9 @@ For [Heroku-22 Stack](https://devcenter.heroku.com/articles/heroku-22-stack) and
 ```
 
 (Legacy) For Heroku Stack 18/20 (Ubuntu 18.04/20.04 LTS)
->>>>>>> b44e20f (updates readme file)
 
 ```ruby
-gem 'wkhtmltopdf-heroku', '3.0.0'
+gem 'wkhtmltopdf-heroku', '2.12.6.0'
 ```
 
 ## Usage
