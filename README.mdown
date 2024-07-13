@@ -11,7 +11,7 @@ In your `Gemfile`:
 For [Heroku-22 Stack](https://devcenter.heroku.com/articles/heroku-22-stack) and [Heroku-24 Stack](https://devcenter.heroku.com/articles/heroku-24-stack)
 
 ```ruby
-  gem 'wkhtmltopdf-heroku', '3.0.0'
+gem 'wkhtmltopdf-heroku', '3.0.0'
 ```
 
 (Legacy) For Heroku Stack 18/20 (Ubuntu 18.04/20.04 LTS)
