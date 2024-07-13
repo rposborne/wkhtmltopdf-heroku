@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0] - 2024-07-12
+
+No changes since `3.0.0.pre.rc0`. This version also works with Heroku-24 stack.
+
 ## [3.0.0.pre.rc0] - 2023-02-07
 
 This version is the same as `2.12.6.1.pre.jammy` but with a major
